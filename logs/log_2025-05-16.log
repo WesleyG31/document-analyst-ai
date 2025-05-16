@@ -1,0 +1,11 @@
+2025-05-16 23:15:27,988 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-16 23:17:35,527 - INFO -Creating Vector Store Pipeline
+2025-05-16 23:17:35,528 - INFO -Loading and converting document: C:\All files\document-analyst-ai\module-0.pdf
+2025-05-16 23:17:36,891 - INFO -Going to convert document batch...
+2025-05-16 23:17:36,894 - INFO -Initializing pipeline for StandardPdfPipeline with options hash 70041f74270850b7bedf7c8f5c2dcede
+2025-05-16 23:17:36,914 - INFO -Loading plugin 'docling_defaults'
+2025-05-16 23:17:36,915 - INFO -Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+2025-05-16 23:17:37,127 - INFO -Accelerator device: 'cuda:0'
+2025-05-16 23:17:38,245 - WARNING -Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
+2025-05-16 23:17:41,193 - INFO -Download complete.
+2025-05-16 23:17:44,658 - INFO -Accelerator device: 'cuda:0'
