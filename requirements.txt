@@ -6,3 +6,5 @@ langchain_community
 langchain-openai
 python-dotenv
 docling
+streamlit
+pdf2image

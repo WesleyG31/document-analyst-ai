@@ -1,0 +1,16 @@
+Metadata-Version: 2.4
+Name: document_analysis
+Version: 0.0.1
+Author: Wesley Gonzales
+Requires-Dist: langchain
+Requires-Dist: langchain_experimental
+Requires-Dist: langchain_huggingface
+Requires-Dist: chromadb
+Requires-Dist: langchain_community
+Requires-Dist: langchain-openai
+Requires-Dist: python-dotenv
+Requires-Dist: docling
+Requires-Dist: streamlit
+Requires-Dist: pdf2image
+Dynamic: author
+Dynamic: requires-dist

@@ -29,11 +29,11 @@ load_dotenv()
 logger = get_logger(__name__)
 
 class RAG_MODEL:
-    def __init__(self, file_path,filename,embedding_model):
+    def __init__(self, file_path,filename,embedding_model,vector_db_path):
         self.file_path=file_path
         self.filename=filename
         self.embedding_model=embedding_model
-        self.vector_db_path=r"C:/All files/document-analyst-ai/vector_store"
+        self.vector_db_path=vector_db_path
         self.OPENROUTER_API_KEY=os.getenv("OPENROUTER_API_KEY")
 
     def load_convert_document(self):
@@ -61,7 +61,7 @@ class RAG_MODEL:
     def vector_store(self,chunks):
         try:
             logger.info(f"Creating Vector Store: {self.filename}")
-            persist_directory= Path(self.vector_db_path)/self.filename
+            persist_directory= Path(self.vector_db_path)/self.filename/"db"
 
             if persist_directory.exists():
                 vector_store= Chroma(
@@ -80,7 +80,7 @@ class RAG_MODEL:
             logger.error(f"Error while creating vector store: {e}")
             raise CustomException("Error while creating vector store",e)
 
-    def rag_chain(self,retriever,assistant):
+    def rag_chain(self,retriever,assistant,model):
         try:
             logger.info("Creating RAG chain")
             prompt = """ You are an assistant for {assistant}. Use the retrieved context to answer questions. 
@@ -96,7 +96,7 @@ class RAG_MODEL:
             llm = ChatOpenAI(
                 base_url="https://openrouter.ai/api/v1",
                 openai_api_key=self.OPENROUTER_API_KEY,
-                model="deepseek/deepseek-chat-v3-0324:free",  
+                model=model,  
             )
             logger.info("OpenRouter API model created successfully")
             answer= (
@@ -133,11 +133,16 @@ if __name__ == "__main__":
     file_path=r"artifacts\module-0-5-8.pdf"
     filename="module-0"
     assistant="Cloud Expert"
+    vector_db_path=r"C:/All files/document-analyst-ai/vector_store"
     question="What are the Course prerequisites?"
-    rag_model= RAG_MODEL(file_path,filename,embedding_model)
+    rag_model= RAG_MODEL(file_path,filename,embedding_model,vector_db_path)
     vector_store=rag_model.run_vector()
     retriever = vector_store.as_retriever(search_type="mmr", search_kwargs={'k': 3})
-    chain = rag_model.rag_chain(retriever, assistant)
+
+    model="deepseek/deepseek-chat-v3-0324:free"
+    chain = rag_model.rag_chain(retriever, assistant,model)
+
+
     response = chain.invoke(question)
     logger.info("Answer generated successfully")
     print(response)

@@ -192,3 +192,585 @@
 2025-05-17 10:39:29,167 - WARNING -Number of requested results 20 is greater than number of elements in index 5, updating n_results = 5
 2025-05-17 10:39:29,498 - INFO -HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
 2025-05-17 10:39:36,661 - INFO -Answer generated successfully
+2025-05-17 12:48:38,470 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 12:48:38,473 - ERROR -Error while showing PDF in Streamlit: Unable to get page count. Is poppler installed and in PATH?
+2025-05-17 13:27:32,396 - INFO -Loading PDF and vector store previously processed
+2025-05-17 13:27:32,901 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 13:27:37,315 - INFO -Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-17 13:27:37,715 - ERROR -Error while loading PDF and vector store: unsupported operand type(s) for +: 'WindowsPath' and 'str'
+2025-05-17 13:27:40,281 - INFO -Loading PDF and vector store previously processed
+2025-05-17 13:27:40,291 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 13:27:43,057 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 13:35:46,525 - INFO -Loading PDF and vector store previously processed
+2025-05-17 13:35:46,532 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 13:35:48,375 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 13:35:53,320 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 13:35:53,337 - ERROR -Error while showing PDF in Streamlit: Unable to get page count. Is poppler installed and in PATH?
+2025-05-17 13:40:52,963 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 13:40:52,971 - ERROR -Error while showing PDF in Streamlit: Unable to get page count. Is poppler installed and in PATH?
+2025-05-17 13:40:58,378 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 13:40:58,380 - ERROR -Error while showing PDF in Streamlit: Unable to get page count. Is poppler installed and in PATH?
+2025-05-17 13:43:14,683 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 13:43:14,686 - ERROR -Error while showing PDF in Streamlit: Unable to get page count. Is poppler installed and in PATH?
+2025-05-17 13:43:17,485 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 13:43:17,487 - ERROR -Error while showing PDF in Streamlit: Unable to get page count. Is poppler installed and in PATH?
+2025-05-17 13:43:29,607 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 13:43:29,609 - ERROR -Error while showing PDF in Streamlit: Unable to get page count. Is poppler installed and in PATH?
+2025-05-17 13:45:50,698 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 13:45:50,700 - ERROR -Error while showing PDF in Streamlit: Unable to get page count. Is poppler installed and in PATH?
+2025-05-17 13:45:54,113 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 13:45:54,116 - ERROR -Error while showing PDF in Streamlit: Unable to get page count. Is poppler installed and in PATH?
+2025-05-17 13:45:57,565 - INFO -Loading PDF and vector store previously processed
+2025-05-17 13:45:57,566 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 13:45:59,706 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 14:01:27,247 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:01:27,248 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:01:28,855 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 14:01:31,025 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:01:31,027 - ERROR -Error while showing PDF in Streamlit: Unable to get page count. Is poppler installed and in PATH?
+2025-05-17 14:01:34,074 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:01:34,076 - ERROR -Error while showing PDF in Streamlit: Unable to get page count. Is poppler installed and in PATH?
+2025-05-17 14:01:40,106 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:01:40,109 - ERROR -Error while showing PDF in Streamlit: Unable to get page count. Is poppler installed and in PATH?
+2025-05-17 14:01:44,657 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:01:44,660 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:01:46,643 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 14:03:03,787 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:03:03,790 - ERROR -Error while showing PDF in Streamlit: Unable to get page count. Is poppler installed and in PATH?
+2025-05-17 14:07:58,839 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:07:58,843 - ERROR -Error while showing PDF in Streamlit: Unable to get page count. Is poppler installed and in PATH?
+2025-05-17 14:08:11,612 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:08:11,615 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:08:13,739 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 14:08:20,788 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:08:20,791 - ERROR -Error while showing PDF in Streamlit: Unable to get page count. Is poppler installed and in PATH?
+2025-05-17 14:09:39,524 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:09:39,525 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:09:41,041 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 14:09:53,319 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:09:53,321 - ERROR -Error while showing PDF in Streamlit: Unable to get page count. Is poppler installed and in PATH?
+2025-05-17 14:14:42,721 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:14:42,722 - INFO -Images do not exist, converting PDF to images
+2025-05-17 14:14:42,724 - ERROR -Error while converting PDF to images: Unable to get page count. Is poppler installed and in PATH?
+2025-05-17 14:14:42,724 - ERROR -Error while showing PDF in Streamlit: Error occurred in : [C:\All files\document-analyst-ai\application.py] at line number: [42] error message: [Error while converting PDF to images:]
+2025-05-17 14:19:45,713 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:19:45,867 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:19:48,613 - INFO -Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-17 14:19:48,686 - ERROR -Error while loading PDF and vector store: unsupported operand type(s) for +: 'WindowsPath' and 'str'
+2025-05-17 14:20:43,907 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:20:43,910 - INFO -Images do not exist, converting PDF to images
+2025-05-17 14:20:43,912 - ERROR -Error while converting PDF to images: Unable to get page count. Is poppler installed and in PATH?
+2025-05-17 14:20:43,912 - ERROR -Error while showing PDF in Streamlit: Error occurred in : [C:\All files\document-analyst-ai\application.py] at line number: [42] error message: [Error while converting PDF to images:]
+2025-05-17 14:24:21,092 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:24:21,204 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:24:23,743 - INFO -Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-17 14:24:23,769 - ERROR -Error while loading PDF and vector store: unsupported operand type(s) for +: 'WindowsPath' and 'str'
+2025-05-17 14:24:27,681 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:24:27,684 - INFO -Images do not exist, converting PDF to images
+2025-05-17 14:24:43,368 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:24:43,370 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:24:45,224 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 14:25:29,825 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:25:29,826 - INFO -Images already exist
+2025-05-17 14:25:31,430 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:25:31,431 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:25:33,062 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 14:26:45,187 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:26:45,188 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:26:46,980 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 14:27:07,132 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:27:07,133 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:27:08,822 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 14:31:50,679 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:31:50,681 - INFO -Images do not exist, converting PDF to images
+2025-05-17 14:31:59,567 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:31:59,568 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:32:01,641 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 14:33:16,401 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:33:16,402 - INFO -Images do not exist, converting PDF to images
+2025-05-17 14:33:21,094 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:33:21,095 - INFO -Images already exist
+2025-05-17 14:33:24,661 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:33:24,662 - INFO -Images already exist
+2025-05-17 14:33:25,172 - INFO -Processing PDF
+2025-05-17 14:33:25,173 - INFO -PDF saved successfully at tmp\vector_store\module-0\module-0.pdf
+2025-05-17 14:33:25,174 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:33:28,298 - INFO -################# Creating Vector Store Pipeline ######################
+2025-05-17 14:33:28,298 - INFO -Loading and converting document: tmp\vector_store\module-0\module-0.pdf
+2025-05-17 14:33:29,257 - INFO -Going to convert document batch...
+2025-05-17 14:33:29,258 - INFO -Initializing pipeline for StandardPdfPipeline with options hash 70041f74270850b7bedf7c8f5c2dcede
+2025-05-17 14:33:29,272 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 14:33:29,273 - INFO -Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+2025-05-17 14:33:29,419 - INFO -Accelerator device: 'cpu'
+2025-05-17 14:33:30,731 - INFO -Accelerator device: 'cpu'
+2025-05-17 14:33:31,521 - INFO -Accelerator device: 'cpu'
+2025-05-17 14:33:32,017 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 14:33:32,017 - INFO -Registered picture descriptions: ['vlm', 'api']
+2025-05-17 14:33:32,018 - INFO -Processing document module-0.pdf
+2025-05-17 14:34:33,426 - INFO -Finished converting document module-0.pdf in 65.12 sec.
+2025-05-17 14:34:33,427 - INFO -Loading and converting document SUCCESSFULLY: tmp\vector_store\module-0\module-0.pdf
+2025-05-17 14:34:33,504 - INFO -Splitting document
+2025-05-17 14:34:33,504 - INFO -Splitting document SUCCESSFULLY: tmp\vector_store\module-0\module-0.pdf
+2025-05-17 14:34:33,506 - INFO -Creating Vector Store: module-0.pdf
+2025-05-17 14:34:33,508 - INFO -Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-17 14:34:35,893 - INFO -Creating Vector Store SUCCESSFULLY: tmp\vector_store\module-0\module-0.pdf
+2025-05-17 14:34:35,893 - INFO -################# Vector Store created successfully ###############
+2025-05-17 14:34:35,898 - INFO -PDF processed successfully
+2025-05-17 14:37:15,270 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:37:15,272 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:37:17,255 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 14:37:26,140 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:37:26,142 - INFO -Images do not exist, converting PDF to images
+2025-05-17 14:37:37,363 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:37:37,364 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:37:38,998 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 14:39:13,949 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:39:13,949 - INFO -PDF and vector store loaded successfully
+2025-05-17 14:39:19,420 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:39:19,422 - INFO -Images do not exist, converting PDF to images
+2025-05-17 14:39:38,334 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:39:38,336 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:39:39,912 - INFO -Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-17 14:39:39,913 - ERROR -Error while loading PDF and vector store: unsupported operand type(s) for +: 'WindowsPath' and 'str'
+2025-05-17 14:44:44,090 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:44:44,091 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:44:45,931 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 14:44:54,955 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:44:54,955 - INFO -Images already exist
+2025-05-17 14:45:00,513 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:45:00,514 - INFO -Images already exist
+2025-05-17 14:45:03,307 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:45:03,308 - INFO -Images already exist
+2025-05-17 14:45:03,511 - INFO -Processing PDF
+2025-05-17 14:45:03,512 - INFO -PDF saved successfully at tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-17 14:45:03,514 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:45:05,876 - INFO -################# Creating Vector Store Pipeline ######################
+2025-05-17 14:45:05,876 - INFO -Loading and converting document: tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-17 14:45:05,886 - INFO -Going to convert document batch...
+2025-05-17 14:45:05,886 - INFO -Initializing pipeline for StandardPdfPipeline with options hash 70041f74270850b7bedf7c8f5c2dcede
+2025-05-17 14:45:05,886 - INFO -Accelerator device: 'cpu'
+2025-05-17 14:45:07,178 - INFO -Accelerator device: 'cpu'
+2025-05-17 14:45:08,012 - INFO -Accelerator device: 'cpu'
+2025-05-17 14:45:08,274 - INFO -Processing document module-0-5-8.pdf
+2025-05-17 14:45:17,547 - INFO -Finished converting document module-0-5-8.pdf in 11.67 sec.
+2025-05-17 14:45:17,547 - INFO -Loading and converting document SUCCESSFULLY: tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-17 14:45:17,552 - INFO -Splitting document
+2025-05-17 14:45:17,552 - INFO -Splitting document SUCCESSFULLY: tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-17 14:45:17,554 - INFO -Creating Vector Store: module-0-5-8
+2025-05-17 14:45:17,555 - INFO -Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-17 14:45:17,605 - INFO -Creating Vector Store SUCCESSFULLY: tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-17 14:45:17,605 - INFO -################# Vector Store created successfully ###############
+2025-05-17 14:45:17,607 - INFO -PDF processed successfully
+2025-05-17 14:46:03,271 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:46:03,271 - INFO -Images already exist
+2025-05-17 14:46:10,332 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:46:10,334 - INFO -Images already exist
+2025-05-17 14:46:13,410 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:46:13,411 - INFO -Images already exist
+2025-05-17 14:46:28,456 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:46:28,457 - INFO -Images already exist
+2025-05-17 14:46:28,512 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:46:28,513 - INFO -Images already exist
+2025-05-17 14:46:38,689 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:46:38,690 - INFO -Images already exist
+2025-05-17 14:46:42,875 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:46:42,876 - INFO -Images already exist
+2025-05-17 14:48:12,637 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:48:12,638 - INFO -Images already exist
+2025-05-17 14:48:24,041 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:48:24,043 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:48:25,754 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 14:49:23,267 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:49:23,269 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:49:25,161 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 14:50:19,007 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:50:19,009 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:50:20,694 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 14:52:49,706 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:52:49,707 - INFO -PDF and vector store loaded successfully
+2025-05-17 14:52:50,830 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:52:50,833 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:52:52,592 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 14:53:03,469 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:53:03,472 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:53:05,124 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 14:56:42,191 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:56:42,192 - INFO -Images do not exist, converting PDF to images
+2025-05-17 14:57:35,498 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:57:35,592 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:57:37,969 - INFO -Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-17 14:57:37,994 - ERROR -Error while loading PDF and vector store: unsupported operand type(s) for +: 'WindowsPath' and 'str'
+2025-05-17 14:58:51,005 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:58:51,006 - INFO -Images already exist
+2025-05-17 14:59:02,821 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:59:02,822 - INFO -Images already exist
+2025-05-17 14:59:05,054 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 14:59:05,054 - INFO -Images already exist
+2025-05-17 14:59:05,256 - INFO -Processing PDF
+2025-05-17 14:59:05,256 - INFO -PDF saved successfully at tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-17 14:59:05,257 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:59:07,257 - INFO -################# Creating Vector Store Pipeline ######################
+2025-05-17 14:59:07,258 - INFO -Loading and converting document: tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-17 14:59:07,283 - INFO -Going to convert document batch...
+2025-05-17 14:59:07,283 - INFO -Initializing pipeline for StandardPdfPipeline with options hash 70041f74270850b7bedf7c8f5c2dcede
+2025-05-17 14:59:07,295 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 14:59:07,296 - INFO -Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+2025-05-17 14:59:07,337 - INFO -Accelerator device: 'cpu'
+2025-05-17 14:59:08,528 - INFO -Accelerator device: 'cpu'
+2025-05-17 14:59:09,259 - INFO -Accelerator device: 'cpu'
+2025-05-17 14:59:09,527 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 14:59:09,527 - INFO -Registered picture descriptions: ['vlm', 'api']
+2025-05-17 14:59:09,527 - INFO -Processing document module-0-5-8.pdf
+2025-05-17 14:59:19,250 - INFO -Finished converting document module-0-5-8.pdf in 12.00 sec.
+2025-05-17 14:59:19,250 - INFO -Loading and converting document SUCCESSFULLY: tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-17 14:59:19,271 - INFO -Splitting document
+2025-05-17 14:59:19,271 - INFO -Splitting document SUCCESSFULLY: tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-17 14:59:19,271 - INFO -Creating Vector Store: module-0-5-8
+2025-05-17 14:59:19,273 - INFO -Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-17 14:59:19,327 - INFO -Creating Vector Store SUCCESSFULLY: tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-17 14:59:19,327 - INFO -################# Vector Store created successfully ###############
+2025-05-17 14:59:19,330 - INFO -PDF processed successfully
+2025-05-17 14:59:51,825 - INFO -Loading PDF and vector store previously processed
+2025-05-17 14:59:51,827 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 14:59:53,880 - ERROR -Error while loading PDF and vector store: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 15:08:13,136 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:08:13,136 - INFO -Check if the directory tmp\vector_store\module-0-5-8 exists
+2025-05-17 15:08:13,138 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:08:15,732 - ERROR -Error while checking if the directory exists tmp\vector_store\module-0-5-8: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 15:08:15,732 - ERROR -Error while loading PDF and vector store: Error occurred in : [C:\All files\document-analyst-ai\application.py] at line number: [121] error message: [Error while checking if the directory exists]
+2025-05-17 15:08:17,949 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:08:17,949 - INFO -Check if the directory tmp\vector_store\module-0-5-8 exists
+2025-05-17 15:08:17,950 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:08:19,325 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:08:19,325 - INFO -Images already exist
+2025-05-17 15:08:19,370 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:08:19,424 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:08:19,473 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:08:19,531 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:08:19,835 - ERROR -Error while checking if the directory exists tmp\vector_store\module-0-5-8: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 15:08:19,835 - ERROR -Error while loading PDF and vector store: Error occurred in : [C:\All files\document-analyst-ai\application.py] at line number: [121] error message: [Error while checking if the directory exists]
+2025-05-17 15:08:21,384 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:08:21,384 - INFO -Check if the directory tmp\vector_store\module-0-5-8 exists
+2025-05-17 15:08:21,386 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:08:23,236 - ERROR -Error while checking if the directory exists tmp\vector_store\module-0-5-8: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 15:08:23,237 - ERROR -Error while loading PDF and vector store: Error occurred in : [C:\All files\document-analyst-ai\application.py] at line number: [121] error message: [Error while checking if the directory exists]
+2025-05-17 15:12:59,971 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:12:59,971 - INFO -Check if the directory tmp\vector_store\module-0-5-8 exists
+2025-05-17 15:12:59,972 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:13:02,518 - ERROR -Error while checking if the directory exists tmp\vector_store\module-0-5-8: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 15:13:02,518 - ERROR -Error while loading PDF and vector store: Error occurred in : [C:\All files\document-analyst-ai\application.py] at line number: [121] error message: [Error while checking if the directory exists]
+2025-05-17 15:13:06,477 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:13:06,477 - INFO -Images already exist
+2025-05-17 15:13:06,524 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:13:06,580 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:13:06,634 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:13:06,693 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:13:07,958 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:13:07,959 - INFO -Images already exist
+2025-05-17 15:13:08,007 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:13:08,059 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:13:08,107 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:13:08,162 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:13:08,164 - INFO -Processing PDF
+2025-05-17 15:13:08,165 - INFO -PDF saved successfully at tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-17 15:13:08,166 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:13:10,195 - INFO -################# Creating Vector Store Pipeline ######################
+2025-05-17 15:13:10,195 - INFO -Loading and converting document: tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-17 15:13:10,205 - INFO -Going to convert document batch...
+2025-05-17 15:13:10,206 - INFO -Initializing pipeline for StandardPdfPipeline with options hash 70041f74270850b7bedf7c8f5c2dcede
+2025-05-17 15:13:10,206 - INFO -Accelerator device: 'cpu'
+2025-05-17 15:13:11,384 - INFO -Accelerator device: 'cpu'
+2025-05-17 15:13:12,069 - INFO -Accelerator device: 'cpu'
+2025-05-17 15:13:12,326 - INFO -Processing document module-0-5-8.pdf
+2025-05-17 15:13:22,458 - INFO -Finished converting document module-0-5-8.pdf in 12.27 sec.
+2025-05-17 15:13:22,458 - INFO -Loading and converting document SUCCESSFULLY: tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-17 15:13:22,463 - INFO -Splitting document
+2025-05-17 15:13:22,463 - INFO -Splitting document SUCCESSFULLY: tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-17 15:13:22,463 - INFO -Creating Vector Store: module-0-5-8
+2025-05-17 15:13:22,464 - INFO -Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-17 15:13:22,804 - INFO -Creating Vector Store SUCCESSFULLY: tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-17 15:13:22,805 - INFO -################# Vector Store created successfully ###############
+2025-05-17 15:13:22,805 - INFO -PDF processed successfully
+2025-05-17 15:14:28,544 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:14:28,545 - INFO -Check if the directory tmp\vector_store\module-0-5-8 exists
+2025-05-17 15:14:28,547 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:14:31,707 - ERROR -Error while checking if the directory exists tmp\vector_store\module-0-5-8: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 15:14:31,707 - ERROR -Error while loading PDF and vector store: Error occurred in : [C:\All files\document-analyst-ai\application.py] at line number: [121] error message: [Error while checking if the directory exists]
+2025-05-17 15:15:31,252 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:15:31,253 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:15:31,254 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:15:33,265 - INFO -Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-17 15:15:33,265 - ERROR -Error while checking if the directory exists tmp\vector_store\module-0-5-8\db: unsupported operand type(s) for +: 'WindowsPath' and 'str'
+2025-05-17 15:15:33,265 - ERROR -Error while loading PDF and vector store: Error occurred in : [C:\All files\document-analyst-ai\application.py] at line number: [121] error message: [Error while checking if the directory exists]
+2025-05-17 15:15:36,914 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:15:36,915 - INFO -Images already exist
+2025-05-17 15:15:36,961 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:15:37,021 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:15:37,073 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:15:37,131 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:15:37,926 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:15:37,926 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:15:37,928 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:15:39,921 - ERROR -Error while checking if the directory exists tmp\vector_store\module-0-5-8\db: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 15:15:39,921 - ERROR -Error while loading PDF and vector store: Error occurred in : [C:\All files\document-analyst-ai\application.py] at line number: [121] error message: [Error while checking if the directory exists]
+2025-05-17 15:16:59,586 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:16:59,587 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:16:59,588 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:17:01,206 - INFO -embedding model created successfully
+2025-05-17 15:17:01,207 - ERROR -Error while checking if the directory exists tmp\vector_store\module-0-5-8\db: Could not connect to tenant default_tenant. Are you sure it exists?
+2025-05-17 15:17:01,207 - ERROR -Error while loading PDF and vector store: Error occurred in : [C:\All files\document-analyst-ai\application.py] at line number: [122] error message: [Error while checking if the directory exists]
+2025-05-17 15:19:43,241 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:19:43,242 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:19:43,243 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:19:45,041 - INFO -embedding model created successfully
+2025-05-17 15:19:45,059 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:19:45,059 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:19:45,060 - INFO -Images already exist
+2025-05-17 15:19:45,097 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:19:45,148 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:19:45,197 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:19:45,250 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:19:45,251 - INFO -PDF and vector store loaded successfully
+2025-05-17 15:20:34,389 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:20:34,389 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:20:34,394 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:20:36,221 - INFO -embedding model created successfully
+2025-05-17 15:20:36,241 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:20:36,241 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:20:36,241 - INFO -Images already exist
+2025-05-17 15:20:36,281 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:20:36,340 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:20:36,394 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:20:36,453 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:20:36,454 - INFO -PDF and vector store loaded successfully
+2025-05-17 15:20:51,242 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:20:51,242 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:20:51,245 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:20:53,362 - INFO -embedding model created successfully
+2025-05-17 15:20:53,379 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:20:53,379 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:20:53,379 - INFO -Images already exist
+2025-05-17 15:20:53,418 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:20:53,465 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:20:53,511 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:20:53,563 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:20:53,563 - INFO -PDF and vector store loaded successfully
+2025-05-17 15:21:11,059 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:21:11,059 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:21:11,062 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:21:12,534 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:21:12,535 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:21:12,536 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:21:13,148 - INFO -embedding model created successfully
+2025-05-17 15:21:13,166 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:21:13,166 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:21:13,166 - INFO -Images already exist
+2025-05-17 15:21:14,558 - INFO -embedding model created successfully
+2025-05-17 15:21:14,575 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:21:14,575 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:21:14,576 - INFO -Images already exist
+2025-05-17 15:21:14,613 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:21:14,662 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:21:14,708 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:21:14,760 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:21:14,761 - INFO -PDF and vector store loaded successfully
+2025-05-17 15:21:15,629 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:21:15,629 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:21:15,631 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:21:17,554 - INFO -embedding model created successfully
+2025-05-17 15:21:17,572 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:21:17,572 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:21:17,572 - INFO -Images already exist
+2025-05-17 15:21:17,611 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:21:17,660 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:21:17,706 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:21:17,756 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:21:17,756 - INFO -PDF and vector store loaded successfully
+2025-05-17 15:21:19,955 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:21:19,956 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:21:19,957 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:21:21,489 - INFO -embedding model created successfully
+2025-05-17 15:21:21,505 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:21:21,506 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:21:21,506 - INFO -Images already exist
+2025-05-17 15:21:21,544 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:21:21,592 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:21:21,638 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:21:21,690 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:21:21,690 - INFO -PDF and vector store loaded successfully
+2025-05-17 15:21:21,692 - INFO -Answering question in streamlit
+2025-05-17 15:22:15,612 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:22:15,613 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:22:15,613 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:22:17,733 - INFO -embedding model created successfully
+2025-05-17 15:22:17,751 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:22:17,752 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:22:17,752 - INFO -Images already exist
+2025-05-17 15:22:17,790 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:22:17,840 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:22:17,885 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:22:17,937 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:22:17,937 - INFO -PDF and vector store loaded successfully
+2025-05-17 15:22:19,099 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:22:19,100 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:22:19,101 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:22:20,691 - INFO -embedding model created successfully
+2025-05-17 15:22:20,708 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:22:20,708 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:22:20,709 - INFO -Images already exist
+2025-05-17 15:22:20,748 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:22:20,803 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:22:20,849 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:22:20,900 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:22:20,901 - INFO -PDF and vector store loaded successfully
+2025-05-17 15:22:20,903 - INFO -Answering question in streamlit
+2025-05-17 15:22:20,904 - ERROR -Error while answering question in streamlit: name 'rag_model' is not defined
+2025-05-17 15:25:31,678 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:25:31,678 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:25:31,681 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:25:33,233 - INFO -embedding model created successfully
+2025-05-17 15:25:33,251 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:25:33,251 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:25:33,251 - INFO -Images already exist
+2025-05-17 15:25:33,289 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:25:33,337 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:25:33,384 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:25:33,436 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:25:33,437 - INFO -PDF and vector store loaded successfully
+2025-05-17 15:25:35,039 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:25:35,040 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:25:35,041 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:25:37,169 - INFO -embedding model created successfully
+2025-05-17 15:25:37,186 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:25:37,186 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:25:37,186 - INFO -Images already exist
+2025-05-17 15:25:37,224 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:25:37,272 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:25:37,317 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:25:37,369 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:25:37,370 - INFO -PDF and vector store loaded successfully
+2025-05-17 15:25:37,372 - INFO -Answering question in streamlit
+2025-05-17 15:25:37,372 - INFO -Creating RAG chain
+2025-05-17 15:25:37,372 - INFO -Prompt created successfully
+2025-05-17 15:25:37,372 - INFO -Using OpenRouter API for RAG Chain
+2025-05-17 15:25:37,956 - INFO -OpenRouter API model created successfully
+2025-05-17 15:25:38,294 - INFO -HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 15:25:59,089 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:25:59,089 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:25:59,091 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:25:59,578 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:25:59,578 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:25:59,580 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:26:01,106 - INFO -embedding model created successfully
+2025-05-17 15:26:01,126 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:26:01,126 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:26:01,126 - INFO -Images already exist
+2025-05-17 15:26:01,410 - INFO -embedding model created successfully
+2025-05-17 15:26:01,428 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:26:01,428 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:26:01,429 - INFO -Images already exist
+2025-05-17 15:26:01,466 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:26:01,516 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:26:01,561 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:26:01,611 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:26:01,613 - INFO -PDF and vector store loaded successfully
+2025-05-17 15:26:01,615 - INFO -Answering question in streamlit
+2025-05-17 15:26:01,615 - INFO -Creating RAG chain
+2025-05-17 15:26:01,615 - INFO -Prompt created successfully
+2025-05-17 15:26:01,615 - INFO -Using OpenRouter API for RAG Chain
+2025-05-17 15:26:01,896 - INFO -OpenRouter API model created successfully
+2025-05-17 15:26:02,086 - INFO -HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 15:26:14,617 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:26:14,618 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:26:14,619 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:26:15,017 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:26:15,017 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:26:15,019 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:26:16,425 - INFO -embedding model created successfully
+2025-05-17 15:26:16,443 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:26:16,443 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:26:16,443 - INFO -Images already exist
+2025-05-17 15:26:17,064 - INFO -embedding model created successfully
+2025-05-17 15:26:17,083 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:26:17,083 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:26:17,084 - INFO -Images already exist
+2025-05-17 15:26:17,124 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:26:17,175 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:26:17,223 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:26:17,275 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:26:17,276 - INFO -PDF and vector store loaded successfully
+2025-05-17 15:26:17,278 - INFO -Answering question in streamlit
+2025-05-17 15:26:17,278 - INFO -Creating RAG chain
+2025-05-17 15:26:17,278 - INFO -Prompt created successfully
+2025-05-17 15:26:17,278 - INFO -Using OpenRouter API for RAG Chain
+2025-05-17 15:26:17,567 - INFO -OpenRouter API model created successfully
+2025-05-17 15:26:17,745 - INFO -HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 15:26:36,107 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:26:36,107 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:26:36,109 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:26:36,707 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:26:36,707 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:26:36,708 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:26:38,606 - INFO -embedding model created successfully
+2025-05-17 15:26:38,622 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:26:38,622 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:26:38,623 - INFO -Images already exist
+2025-05-17 15:26:38,815 - INFO -embedding model created successfully
+2025-05-17 15:26:38,832 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:26:38,832 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:26:38,832 - INFO -Images already exist
+2025-05-17 15:26:38,869 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:26:38,918 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:26:38,962 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:26:39,014 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:26:39,014 - INFO -PDF and vector store loaded successfully
+2025-05-17 15:26:39,017 - INFO -Answering question in streamlit
+2025-05-17 15:26:39,018 - INFO -Creating RAG chain
+2025-05-17 15:26:39,018 - INFO -Prompt created successfully
+2025-05-17 15:26:39,018 - INFO -Using OpenRouter API for RAG Chain
+2025-05-17 15:26:39,295 - INFO -OpenRouter API model created successfully
+2025-05-17 15:26:39,837 - INFO -HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 15:26:51,724 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:26:51,724 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:26:51,725 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:26:52,725 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:26:52,726 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:26:52,727 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:26:54,960 - INFO -embedding model created successfully
+2025-05-17 15:26:54,977 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:26:54,977 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:26:54,977 - INFO -Images already exist
+2025-05-17 15:26:55,395 - INFO -embedding model created successfully
+2025-05-17 15:26:55,413 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:26:55,413 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:26:55,413 - INFO -Images already exist
+2025-05-17 15:26:55,453 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:26:55,503 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:26:55,547 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:26:55,598 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:26:55,598 - INFO -PDF and vector store loaded successfully
+2025-05-17 15:26:55,600 - INFO -Answering question in streamlit
+2025-05-17 15:26:55,601 - INFO -Creating RAG chain
+2025-05-17 15:26:55,601 - INFO -Prompt created successfully
+2025-05-17 15:26:55,601 - INFO -Using OpenRouter API for RAG Chain
+2025-05-17 15:26:55,887 - INFO -OpenRouter API model created successfully
+2025-05-17 15:26:56,145 - INFO -HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 15:27:25,709 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:27:25,709 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:27:25,710 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:27:27,538 - INFO -embedding model created successfully
+2025-05-17 15:27:27,558 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:27:27,558 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:27:27,559 - INFO -Images already exist
+2025-05-17 15:27:31,375 - INFO -Loading PDF and vector store previously processed
+2025-05-17 15:27:31,375 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 15:27:31,377 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 15:27:33,625 - INFO -embedding model created successfully
+2025-05-17 15:27:33,643 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 15:27:33,643 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 15:27:33,643 - INFO -Images already exist
+2025-05-17 15:27:33,684 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:27:33,740 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:27:33,790 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:27:33,843 - INFO -Loading images from PDF already existed successfully
+2025-05-17 15:27:33,844 - INFO -PDF and vector store loaded successfully
