@@ -8,8 +8,11 @@ RUN apt-get update && apt-get install -y \
     && rm -rf /var/lib/apt/lists/*
 
 
+    
+RUN pip install --upgrade pip
 RUN useradd -m -u 1000 user
 USER user
+ENV PATH="/home/user/.local/bin:$PATH"
 
 WORKDIR /app
 
@@ -17,7 +20,10 @@ COPY . /app
 
 RUN pip install --no-cache-dir -e .
 
-EXPOSE 7860
 
-CMD ["streamlit", "run", "application.py", "--server.port=7860", "--server.address=0.0.0.0"]
+CMD ["streamlit", "run", "application.py", \
+    "--server.port=7860", \
+    "--server.address=0.0.0.0", \
+    "--server.enableCORS=false", \
+    "--server.enableXsrfProtection=false"]
 

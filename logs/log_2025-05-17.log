@@ -774,3 +774,62 @@
 2025-05-17 15:27:33,790 - INFO -Loading images from PDF already existed successfully
 2025-05-17 15:27:33,843 - INFO -Loading images from PDF already existed successfully
 2025-05-17 15:27:33,844 - INFO -PDF and vector store loaded successfully
+2025-05-17 16:21:18,743 - INFO -Loading PDF and vector store previously processed
+2025-05-17 16:21:18,744 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-17 16:21:18,968 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 16:21:22,891 - INFO -embedding model created successfully
+2025-05-17 16:21:23,259 - INFO -Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-17 16:21:23,346 - INFO -Directory exists and vector store loaded successfully
+2025-05-17 16:21:23,346 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 16:21:23,348 - INFO -Images already exist
+2025-05-17 16:21:23,453 - INFO -Loading images from PDF already existed successfully
+2025-05-17 16:21:23,558 - INFO -Loading images from PDF already existed successfully
+2025-05-17 16:21:23,666 - INFO -Loading images from PDF already existed successfully
+2025-05-17 16:21:23,778 - INFO -Loading images from PDF already existed successfully
+2025-05-17 16:21:23,780 - INFO -PDF and vector store loaded successfully
+2025-05-17 16:21:40,586 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 16:21:40,588 - INFO -Images do not exist, converting PDF to images
+2025-05-17 16:21:52,071 - INFO -converting PDF to images Successfully
+2025-05-17 16:22:01,338 - INFO -Loading PDF and vector store previously processed
+2025-05-17 16:22:01,338 - INFO -PDF and vector store loaded successfully
+2025-05-17 16:22:08,516 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 16:22:08,516 - INFO -Images already exist
+2025-05-17 16:22:08,609 - INFO -Loading images from PDF already existed successfully
+2025-05-17 16:22:08,707 - INFO -Loading images from PDF already existed successfully
+2025-05-17 16:22:08,809 - INFO -Loading images from PDF already existed successfully
+2025-05-17 16:22:08,911 - INFO -Loading images from PDF already existed successfully
+2025-05-17 16:22:09,948 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 16:22:09,949 - INFO -Images already exist
+2025-05-17 16:22:10,028 - INFO -Loading images from PDF already existed successfully
+2025-05-17 16:22:10,127 - INFO -Loading images from PDF already existed successfully
+2025-05-17 16:22:10,222 - INFO -Loading images from PDF already existed successfully
+2025-05-17 16:22:10,324 - INFO -Loading images from PDF already existed successfully
+2025-05-17 16:22:10,327 - INFO -Processing PDF
+2025-05-17 16:22:10,328 - INFO -PDF saved successfully at tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-17 16:22:10,331 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 16:22:12,311 - INFO -################# Creating Vector Store Pipeline ######################
+2025-05-17 16:22:12,311 - INFO -Loading and converting document: tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-17 16:22:12,353 - INFO -Going to convert document batch...
+2025-05-17 16:22:12,353 - INFO -Initializing pipeline for StandardPdfPipeline with options hash 70041f74270850b7bedf7c8f5c2dcede
+2025-05-17 16:22:12,382 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 16:22:12,383 - INFO -Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+2025-05-17 16:22:12,471 - INFO -Accelerator device: 'cpu'
+2025-05-17 16:22:14,826 - INFO -Accelerator device: 'cpu'
+2025-05-17 16:22:15,893 - INFO -Accelerator device: 'cpu'
+2025-05-17 16:22:16,378 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 16:22:16,378 - INFO -Registered picture descriptions: ['vlm', 'api']
+2025-05-17 16:22:16,379 - INFO -Processing document module-0-5-8.pdf
+2025-05-17 16:22:40,043 - INFO -Finished converting document module-0-5-8.pdf in 27.72 sec.
+2025-05-17 16:22:40,043 - INFO -Loading and converting document SUCCESSFULLY: tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-17 16:22:40,082 - INFO -Splitting document
+2025-05-17 16:22:40,083 - INFO -Splitting document SUCCESSFULLY: tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-17 16:22:40,083 - INFO -Creating Vector Store: module-0-5-8
+2025-05-17 16:22:40,108 - INFO -Creating Vector Store SUCCESSFULLY: tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-17 16:22:40,108 - INFO -################# Vector Store created successfully ###############
+2025-05-17 16:22:40,109 - INFO -PDF processed successfully
+2025-05-17 16:23:01,026 - INFO -Get images from PDF to show in Streamlit
+2025-05-17 16:23:01,028 - INFO -Images already exist
+2025-05-17 16:23:01,134 - INFO -Loading images from PDF already existed successfully
+2025-05-17 16:23:01,255 - INFO -Loading images from PDF already existed successfully
+2025-05-17 16:23:01,355 - INFO -Loading images from PDF already existed successfully
+2025-05-17 16:23:01,463 - INFO -Loading images from PDF already existed successfully
