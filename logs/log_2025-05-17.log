@@ -1,0 +1,194 @@
+2025-05-17 09:47:04,622 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 09:47:07,068 - INFO -################# Creating Vector Store Pipeline ################
+2025-05-17 09:47:07,068 - INFO -Loading and converting document: artifacts\module-0-5-8.pdf
+2025-05-17 09:47:08,540 - INFO -Going to convert document batch...
+2025-05-17 09:47:08,541 - INFO -Initializing pipeline for StandardPdfPipeline with options hash 70041f74270850b7bedf7c8f5c2dcede
+2025-05-17 09:47:08,567 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 09:47:08,567 - INFO -Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+2025-05-17 09:47:08,896 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 09:47:11,497 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 09:47:49,084 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 09:47:49,925 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 09:47:49,925 - INFO -Registered picture descriptions: ['vlm', 'api']
+2025-05-17 09:47:49,925 - INFO -Processing document module-0-5-8.pdf
+2025-05-17 09:47:52,520 - INFO -Finished converting document module-0-5-8.pdf in 45.44 sec.
+2025-05-17 09:47:52,606 - INFO -Splitting document
+2025-05-17 09:47:52,607 - INFO -Creating Vector Store: module-0
+2025-05-17 09:47:52,633 - INFO -Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-17 09:47:53,350 - INFO -################# Vector Store created successfully ###############
+2025-05-17 09:47:53,351 - INFO -Creating RAG chain
+2025-05-17 09:47:53,774 - ERROR -Error using RAG Chain: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-05-17 10:03:29,882 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 10:03:32,294 - INFO -################# Creating Vector Store Pipeline ################
+2025-05-17 10:03:32,294 - INFO -Loading and converting document: artifacts\module-0-5-8.pdf
+2025-05-17 10:03:32,321 - INFO -Going to convert document batch...
+2025-05-17 10:03:32,321 - INFO -Initializing pipeline for StandardPdfPipeline with options hash 70041f74270850b7bedf7c8f5c2dcede
+2025-05-17 10:03:32,344 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 10:03:32,345 - INFO -Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+2025-05-17 10:03:32,424 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:03:34,475 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:03:39,610 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:03:40,345 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 10:03:40,345 - INFO -Registered picture descriptions: ['vlm', 'api']
+2025-05-17 10:03:40,345 - INFO -Processing document module-0-5-8.pdf
+2025-05-17 10:03:43,368 - INFO -Finished converting document module-0-5-8.pdf in 11.06 sec.
+2025-05-17 10:03:43,429 - INFO -Splitting document
+2025-05-17 10:03:43,430 - INFO -Creating Vector Store: module-0
+2025-05-17 10:03:43,442 - INFO -Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-17 10:03:43,904 - INFO -################# Vector Store created successfully ###############
+2025-05-17 10:03:43,904 - INFO -Creating RAG chain
+2025-05-17 10:15:53,798 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 10:15:58,072 - INFO -################# Creating Vector Store Pipeline ################
+2025-05-17 10:15:58,072 - INFO -Loading and converting document: artifacts\module-0-5-8.pdf
+2025-05-17 10:15:58,091 - INFO -Going to convert document batch...
+2025-05-17 10:15:58,091 - INFO -Initializing pipeline for StandardPdfPipeline with options hash 70041f74270850b7bedf7c8f5c2dcede
+2025-05-17 10:15:58,102 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 10:15:58,102 - INFO -Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+2025-05-17 10:15:58,139 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:15:59,558 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:16:03,624 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:16:04,008 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 10:16:04,008 - INFO -Registered picture descriptions: ['vlm', 'api']
+2025-05-17 10:16:04,009 - INFO -Processing document module-0-5-8.pdf
+2025-05-17 10:16:06,033 - INFO -Finished converting document module-0-5-8.pdf in 7.95 sec.
+2025-05-17 10:16:06,085 - INFO -Splitting document
+2025-05-17 10:16:06,085 - INFO -Creating Vector Store: module-0
+2025-05-17 10:16:06,097 - INFO -Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-17 10:16:06,222 - INFO -################# Vector Store created successfully ###############
+2025-05-17 10:16:06,222 - INFO -Creating RAG chain
+2025-05-17 10:16:06,222 - INFO -Prompt created successfully
+2025-05-17 10:16:06,222 - INFO -Usiing OpenRouter API for RAG Chain
+2025-05-17 10:16:06,420 - INFO -OpenRouter API model created successfully
+2025-05-17 10:16:06,531 - WARNING -Number of requested results 20 is greater than number of elements in index 5, updating n_results = 5
+2025-05-17 10:16:06,646 - INFO -HTTP Request: POST https://openrouter.ai/api/v1/chat/completions/chat/completions "HTTP/1.1 404 Not Found"
+2025-05-17 10:18:02,068 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 10:18:06,581 - INFO -################# Creating Vector Store Pipeline ################
+2025-05-17 10:18:06,581 - INFO -Loading and converting document: artifacts\module-0-5-8.pdf
+2025-05-17 10:18:06,598 - INFO -Going to convert document batch...
+2025-05-17 10:18:06,598 - INFO -Initializing pipeline for StandardPdfPipeline with options hash 70041f74270850b7bedf7c8f5c2dcede
+2025-05-17 10:18:06,608 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 10:18:06,608 - INFO -Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+2025-05-17 10:18:06,643 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:18:07,858 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:18:11,128 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:18:11,469 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 10:18:11,469 - INFO -Registered picture descriptions: ['vlm', 'api']
+2025-05-17 10:18:11,470 - INFO -Processing document module-0-5-8.pdf
+2025-05-17 10:18:13,174 - INFO -Finished converting document module-0-5-8.pdf in 6.59 sec.
+2025-05-17 10:18:13,224 - INFO -Splitting document
+2025-05-17 10:18:13,225 - INFO -Creating Vector Store: module-0
+2025-05-17 10:18:13,237 - INFO -Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-17 10:18:13,356 - INFO -################# Vector Store created successfully ###############
+2025-05-17 10:18:13,356 - INFO -Creating RAG chain
+2025-05-17 10:18:13,356 - INFO -Prompt created successfully
+2025-05-17 10:18:13,356 - INFO -Usiing OpenRouter API for RAG Chain
+2025-05-17 10:18:13,543 - INFO -OpenRouter API model created successfully
+2025-05-17 10:18:13,641 - WARNING -Number of requested results 20 is greater than number of elements in index 5, updating n_results = 5
+2025-05-17 10:18:13,926 - INFO -HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 10:22:35,245 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 10:22:38,065 - INFO -################# Creating Vector Store Pipeline ################
+2025-05-17 10:22:38,065 - INFO -Loading and converting document: artifacts\module-0-5-8.pdf
+2025-05-17 10:22:38,082 - INFO -Going to convert document batch...
+2025-05-17 10:22:38,082 - INFO -Initializing pipeline for StandardPdfPipeline with options hash 70041f74270850b7bedf7c8f5c2dcede
+2025-05-17 10:22:38,092 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 10:22:38,092 - INFO -Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+2025-05-17 10:22:38,127 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:22:39,358 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:22:42,629 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:22:42,980 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 10:22:42,980 - INFO -Registered picture descriptions: ['vlm', 'api']
+2025-05-17 10:22:42,980 - INFO -Processing document module-0-5-8.pdf
+2025-05-17 10:22:44,644 - INFO -Finished converting document module-0-5-8.pdf in 6.58 sec.
+2025-05-17 10:22:44,709 - INFO -Splitting document
+2025-05-17 10:22:44,710 - INFO -Creating Vector Store: module-0
+2025-05-17 10:22:44,723 - INFO -Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-17 10:22:44,845 - INFO -################# Vector Store created successfully ###############
+2025-05-17 10:22:44,845 - INFO -Creating RAG chain
+2025-05-17 10:22:44,845 - INFO -Prompt created successfully
+2025-05-17 10:22:44,845 - INFO -Usiing OpenRouter API for RAG Chain
+2025-05-17 10:22:45,038 - INFO -OpenRouter API model created successfully
+2025-05-17 10:22:45,038 - INFO -Answer generated successfully
+2025-05-17 10:22:45,135 - WARNING -Number of requested results 20 is greater than number of elements in index 5, updating n_results = 5
+2025-05-17 10:22:45,396 - INFO -HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 10:32:51,178 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 10:32:53,622 - INFO -################# Creating Vector Store Pipeline ################
+2025-05-17 10:32:53,622 - INFO -Loading and converting document: artifacts\module-0-5-8.pdf
+2025-05-17 10:32:53,643 - INFO -Going to convert document batch...
+2025-05-17 10:32:53,643 - INFO -Initializing pipeline for StandardPdfPipeline with options hash 70041f74270850b7bedf7c8f5c2dcede
+2025-05-17 10:32:53,656 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 10:32:53,657 - INFO -Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+2025-05-17 10:32:53,704 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:32:55,723 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:32:59,709 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:33:00,336 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 10:33:00,336 - INFO -Registered picture descriptions: ['vlm', 'api']
+2025-05-17 10:33:00,337 - INFO -Processing document module-0-5-8.pdf
+2025-05-17 10:33:02,903 - INFO -Finished converting document module-0-5-8.pdf in 9.26 sec.
+2025-05-17 10:33:02,993 - INFO -Splitting document
+2025-05-17 10:33:02,993 - INFO -Creating Vector Store: module-0
+2025-05-17 10:33:03,356 - INFO -Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-17 10:33:03,545 - INFO -################# Vector Store created successfully ###############
+2025-05-17 10:33:03,545 - INFO -Creating RAG chain
+2025-05-17 10:33:03,545 - INFO -Prompt created successfully
+2025-05-17 10:33:03,545 - INFO -Usiing OpenRouter API for RAG Chain
+2025-05-17 10:33:03,790 - INFO -OpenRouter API model created successfully
+2025-05-17 10:33:03,927 - WARNING -Number of requested results 20 is greater than number of elements in index 5, updating n_results = 5
+2025-05-17 10:33:04,194 - INFO -HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 10:33:19,564 - INFO -Answer generated successfully
+2025-05-17 10:37:42,423 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 10:37:45,179 - INFO -############################# Creating Vector Store Pipeline #################################
+2025-05-17 10:37:45,179 - INFO -Loading and converting document: artifacts\module-0-5-8.pdf
+2025-05-17 10:37:45,196 - INFO -Going to convert document batch...
+2025-05-17 10:37:45,196 - INFO -Initializing pipeline for StandardPdfPipeline with options hash 70041f74270850b7bedf7c8f5c2dcede
+2025-05-17 10:37:45,206 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 10:37:45,207 - INFO -Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+2025-05-17 10:37:45,240 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:37:46,423 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:37:49,641 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:37:49,980 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 10:37:49,980 - INFO -Registered picture descriptions: ['vlm', 'api']
+2025-05-17 10:37:49,980 - INFO -Processing document module-0-5-8.pdf
+2025-05-17 10:37:51,556 - INFO -Finished converting document module-0-5-8.pdf in 6.38 sec.
+2025-05-17 10:37:51,556 - INFO -Loading and converting document SUCCESSFULLY: artifacts\module-0-5-8.pdf
+2025-05-17 10:37:51,609 - INFO -Splitting document
+2025-05-17 10:37:51,609 - INFO -Splitting document SUCCESSFULLY: artifacts\module-0-5-8.pdf
+2025-05-17 10:37:51,609 - INFO -Creating Vector Store: module-0
+2025-05-17 10:37:51,832 - INFO -Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-17 10:37:51,949 - INFO -Creating Vector Store SUCCESSFULLY: artifacts\module-0-5-8.pdf
+2025-05-17 10:37:51,949 - INFO -################# Vector Store created successfully ###############
+2025-05-17 10:37:51,949 - INFO -Creating RAG chain
+2025-05-17 10:37:51,949 - INFO -Prompt created successfully
+2025-05-17 10:37:51,949 - INFO -Usiing OpenRouter API for RAG Chain
+2025-05-17 10:37:52,150 - INFO -OpenRouter API model created successfully
+2025-05-17 10:37:52,251 - WARNING -Number of requested results 20 is greater than number of elements in index 5, updating n_results = 5
+2025-05-17 10:37:52,517 - INFO -HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 10:37:56,716 - INFO -Answer generated successfully
+2025-05-17 10:39:18,641 - INFO -############################# PIPELINE INITIALIZING #################################
+2025-05-17 10:39:20,235 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-17 10:39:21,965 - INFO -############################# Creating Vector Store Pipeline #################################
+2025-05-17 10:39:21,965 - INFO -Loading and converting document: artifacts\module-0-5-8.pdf
+2025-05-17 10:39:21,984 - INFO -Going to convert document batch...
+2025-05-17 10:39:21,984 - INFO -Initializing pipeline for StandardPdfPipeline with options hash 70041f74270850b7bedf7c8f5c2dcede
+2025-05-17 10:39:21,996 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 10:39:21,996 - INFO -Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+2025-05-17 10:39:22,030 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:39:23,295 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:39:26,592 - INFO -Accelerator device: 'cuda:0'
+2025-05-17 10:39:26,913 - INFO -Loading plugin 'docling_defaults'
+2025-05-17 10:39:26,913 - INFO -Registered picture descriptions: ['vlm', 'api']
+2025-05-17 10:39:26,913 - INFO -Processing document module-0-5-8.pdf
+2025-05-17 10:39:28,470 - INFO -Finished converting document module-0-5-8.pdf in 6.50 sec.
+2025-05-17 10:39:28,471 - INFO -Loading and converting document SUCCESSFULLY: artifacts\module-0-5-8.pdf
+2025-05-17 10:39:28,523 - INFO -Splitting document
+2025-05-17 10:39:28,523 - INFO -Splitting document SUCCESSFULLY: artifacts\module-0-5-8.pdf
+2025-05-17 10:39:28,523 - INFO -Creating Vector Store: module-0
+2025-05-17 10:39:28,757 - INFO -Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-17 10:39:28,875 - INFO -Creating Vector Store SUCCESSFULLY: artifacts\module-0-5-8.pdf
+2025-05-17 10:39:28,875 - INFO -################# Vector Store created successfully ###############
+2025-05-17 10:39:28,875 - INFO -Creating RAG chain
+2025-05-17 10:39:28,875 - INFO -Prompt created successfully
+2025-05-17 10:39:28,875 - INFO -Usiing OpenRouter API for RAG Chain
+2025-05-17 10:39:29,071 - INFO -OpenRouter API model created successfully
+2025-05-17 10:39:29,167 - WARNING -Number of requested results 20 is greater than number of elements in index 5, updating n_results = 5
+2025-05-17 10:39:29,498 - INFO -HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-17 10:39:36,661 - INFO -Answer generated successfully

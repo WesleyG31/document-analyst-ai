@@ -9,3 +9,25 @@
 2025-05-16 23:17:38,245 - WARNING -Downloading recognition model, please wait. This may take several minutes depending upon your network connection.
 2025-05-16 23:17:41,193 - INFO -Download complete.
 2025-05-16 23:17:44,658 - INFO -Accelerator device: 'cuda:0'
+2025-05-16 23:21:12,277 - ERROR -Error while loading and converting document: [WinError 1314] A required privilege is not held by the client: '..\\..\\blobs\\575b058b45230d48a06df9b1944f4bd40949db1d' -> 'C:\\Users\\wesgb\\.cache\\huggingface\\hub\\models--ds4sd--docling-models\\snapshots\\36bebf56681740529abd09f5473a93a69373fbf0\\.gitattributes'
+2025-05-16 23:21:12,277 - ERROR -Error in Vector Store Pipeline: Error occurred in : [C:\All files\document-analyst-ai\rag.py] at line number: [42] error message: [Error while loading and converting document]
+2025-05-16 23:23:18,379 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-16 23:23:20,772 - INFO -Creating Vector Store Pipeline
+2025-05-16 23:23:20,772 - INFO -Loading and converting document: C:\All files\document-analyst-ai\artifacts\module-0-5-8.pdf
+2025-05-16 23:23:20,841 - INFO -Going to convert document batch...
+2025-05-16 23:23:20,841 - INFO -Initializing pipeline for StandardPdfPipeline with options hash 70041f74270850b7bedf7c8f5c2dcede
+2025-05-16 23:23:20,861 - INFO -Loading plugin 'docling_defaults'
+2025-05-16 23:23:20,862 - INFO -Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+2025-05-16 23:23:20,991 - INFO -Accelerator device: 'cuda:0'
+2025-05-16 23:23:24,231 - INFO -Accelerator device: 'cuda:0'
+2025-05-16 23:23:45,619 - ERROR -Error while loading and converting document: [WinError 1314] A required privilege is not held by the client: '..\\..\\blobs\\575b058b45230d48a06df9b1944f4bd40949db1d' -> 'C:\\Users\\wesgb\\.cache\\huggingface\\hub\\models--ds4sd--docling-models\\snapshots\\36bebf56681740529abd09f5473a93a69373fbf0\\.gitattributes'
+2025-05-16 23:23:45,619 - ERROR -Error in Vector Store Pipeline: Error occurred in : [C:\All files\document-analyst-ai\rag.py] at line number: [42] error message: [Error while loading and converting document]
+2025-05-16 23:28:38,445 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-16 23:28:41,141 - INFO -Creating Vector Store Pipeline
+2025-05-16 23:28:41,141 - INFO -Loading and converting document: artifacts\module-0-5-8.pdf
+2025-05-16 23:28:41,162 - INFO -Going to convert document batch...
+2025-05-16 23:28:41,162 - INFO -Initializing pipeline for StandardPdfPipeline with options hash 70041f74270850b7bedf7c8f5c2dcede
+2025-05-16 23:28:41,177 - INFO -Loading plugin 'docling_defaults'
+2025-05-16 23:28:41,178 - INFO -Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+2025-05-16 23:28:41,230 - INFO -Accelerator device: 'cuda:0'
+2025-05-16 23:28:43,725 - INFO -Accelerator device: 'cuda:0'
