@@ -1,0 +1,154 @@
+2025-05-18 08:14:40,828 - INFO -Loading PDF and vector store previously processed
+2025-05-18 08:14:40,828 - INFO -PDF and vector store loaded successfully
+2025-05-18 08:14:56,708 - INFO -Get images from PDF to show in Streamlit
+2025-05-18 08:14:56,710 - INFO -Images already exist
+2025-05-18 08:14:56,913 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:14:57,072 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:14:57,240 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:14:57,399 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:14:57,566 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:14:57,743 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:14:57,913 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:14:58,078 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:14:58,251 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:14:58,428 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:14:58,621 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:14:58,822 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:14:58,974 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:14:59,134 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:14:59,297 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:14:59,453 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:14:59,618 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:14:59,776 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:14:59,918 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:15:00,048 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:15:00,190 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:15:04,209 - INFO -Get images from PDF to show in Streamlit
+2025-05-18 08:15:04,211 - INFO -Images already exist
+2025-05-18 08:15:04,336 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:15:04,483 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:15:04,636 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:15:04,794 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:15:08,223 - INFO -Get images from PDF to show in Streamlit
+2025-05-18 08:15:08,224 - INFO -Images already exist
+2025-05-18 08:15:08,324 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:15:08,444 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:15:08,566 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:15:08,698 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:15:08,701 - INFO -Processing PDF
+2025-05-18 08:15:08,703 - INFO -PDF saved successfully at tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-18 08:15:09,023 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-18 08:15:11,519 - INFO -################# Creating Vector Store Pipeline ######################
+2025-05-18 08:15:11,519 - INFO -Loading and converting document: tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-18 08:15:14,031 - INFO -Going to convert document batch...
+2025-05-18 08:15:14,031 - INFO -Initializing pipeline for StandardPdfPipeline with options hash 70041f74270850b7bedf7c8f5c2dcede
+2025-05-18 08:15:14,075 - INFO -Loading plugin 'docling_defaults'
+2025-05-18 08:15:14,075 - INFO -Registered ocr engines: ['easyocr', 'ocrmac', 'rapidocr', 'tesserocr', 'tesseract']
+2025-05-18 08:15:14,399 - INFO -Accelerator device: 'cpu'
+2025-05-18 08:15:17,650 - INFO -Accelerator device: 'cpu'
+2025-05-18 08:15:19,168 - INFO -Accelerator device: 'cpu'
+2025-05-18 08:15:20,000 - INFO -Loading plugin 'docling_defaults'
+2025-05-18 08:15:20,000 - INFO -Registered picture descriptions: ['vlm', 'api']
+2025-05-18 08:15:20,001 - INFO -Processing document module-0-5-8.pdf
+2025-05-18 08:15:48,698 - INFO -Finished converting document module-0-5-8.pdf in 37.17 sec.
+2025-05-18 08:15:48,698 - INFO -Loading and converting document SUCCESSFULLY: tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-18 08:15:48,751 - INFO -Splitting document
+2025-05-18 08:15:48,751 - INFO -Splitting document SUCCESSFULLY: tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-18 08:15:48,753 - INFO -Creating Vector Store: module-0-5-8
+2025-05-18 08:15:49,467 - INFO -Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2025-05-18 08:15:49,982 - INFO -Creating Vector Store SUCCESSFULLY: tmp\vector_store\module-0-5-8\module-0-5-8.pdf
+2025-05-18 08:15:49,982 - INFO -################# Vector Store created successfully ###############
+2025-05-18 08:15:49,983 - INFO -PDF processed successfully
+2025-05-18 08:15:57,251 - INFO -Loading PDF and vector store previously processed
+2025-05-18 08:15:57,251 - INFO -PDF and vector store loaded successfully
+2025-05-18 08:15:59,301 - INFO -Loading PDF and vector store previously processed
+2025-05-18 08:15:59,301 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-18 08:15:59,305 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-18 08:16:01,721 - INFO -embedding model created successfully
+2025-05-18 08:16:01,743 - INFO -Directory exists and vector store loaded successfully
+2025-05-18 08:16:01,743 - INFO -Get images from PDF to show in Streamlit
+2025-05-18 08:16:01,743 - INFO -Images already exist
+2025-05-18 08:16:01,806 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:16:01,915 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:16:02,024 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:16:02,141 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:16:02,142 - INFO -PDF and vector store loaded successfully
+2025-05-18 08:16:12,777 - INFO -Loading PDF and vector store previously processed
+2025-05-18 08:16:12,777 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-18 08:16:12,780 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-18 08:16:14,386 - INFO -embedding model created successfully
+2025-05-18 08:16:14,407 - INFO -Directory exists and vector store loaded successfully
+2025-05-18 08:16:14,407 - INFO -Get images from PDF to show in Streamlit
+2025-05-18 08:16:14,407 - INFO -Images already exist
+2025-05-18 08:16:14,487 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:16:14,625 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:16:14,766 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:16:14,909 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:16:14,910 - INFO -PDF and vector store loaded successfully
+2025-05-18 08:16:37,688 - INFO -Loading PDF and vector store previously processed
+2025-05-18 08:16:37,689 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-18 08:16:37,692 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-18 08:16:39,446 - INFO -embedding model created successfully
+2025-05-18 08:16:39,467 - INFO -Directory exists and vector store loaded successfully
+2025-05-18 08:16:39,467 - INFO -Get images from PDF to show in Streamlit
+2025-05-18 08:16:39,467 - INFO -Images already exist
+2025-05-18 08:16:39,549 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:16:39,678 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:16:39,797 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:16:39,919 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:16:39,920 - INFO -PDF and vector store loaded successfully
+2025-05-18 08:16:50,448 - INFO -Loading PDF and vector store previously processed
+2025-05-18 08:16:50,449 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-18 08:16:50,452 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-18 08:16:50,548 - INFO -Loading PDF and vector store previously processed
+2025-05-18 08:16:50,549 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-18 08:16:50,552 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-18 08:16:52,636 - INFO -embedding model created successfully
+2025-05-18 08:16:52,657 - INFO -Directory exists and vector store loaded successfully
+2025-05-18 08:16:52,658 - INFO -Get images from PDF to show in Streamlit
+2025-05-18 08:16:52,658 - INFO -Images already exist
+2025-05-18 08:16:53,367 - INFO -embedding model created successfully
+2025-05-18 08:16:53,388 - INFO -Directory exists and vector store loaded successfully
+2025-05-18 08:16:53,389 - INFO -Get images from PDF to show in Streamlit
+2025-05-18 08:16:53,389 - INFO -Images already exist
+2025-05-18 08:16:53,466 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:16:53,590 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:16:53,708 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:16:53,841 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:16:53,843 - INFO -PDF and vector store loaded successfully
+2025-05-18 08:16:53,848 - INFO -Answering question in streamlit
+2025-05-18 08:16:53,912 - INFO -Creating RAG chain
+2025-05-18 08:16:53,914 - INFO -Prompt created successfully
+2025-05-18 08:16:53,914 - INFO -Using OpenRouter API for RAG Chain
+2025-05-18 08:16:55,298 - INFO -OpenRouter API model created successfully
+2025-05-18 08:16:55,767 - INFO -HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
+2025-05-18 08:17:28,812 - INFO -Loading PDF and vector store previously processed
+2025-05-18 08:17:28,813 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-18 08:17:28,814 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-18 08:17:31,372 - INFO -embedding model created successfully
+2025-05-18 08:17:31,398 - INFO -Directory exists and vector store loaded successfully
+2025-05-18 08:17:31,398 - INFO -Get images from PDF to show in Streamlit
+2025-05-18 08:17:31,399 - INFO -Images already exist
+2025-05-18 08:17:31,504 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:17:31,668 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:17:31,824 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:17:31,995 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:17:31,996 - INFO -PDF and vector store loaded successfully
+2025-05-18 08:17:33,598 - INFO -Loading PDF and vector store previously processed
+2025-05-18 08:17:33,598 - INFO -Check if the directory tmp\vector_store\module-0-5-8\db exists
+2025-05-18 08:17:33,602 - INFO -Load pretrained SentenceTransformer: BAAI/bge-small-en
+2025-05-18 08:17:35,528 - INFO -embedding model created successfully
+2025-05-18 08:17:35,549 - INFO -Directory exists and vector store loaded successfully
+2025-05-18 08:17:35,549 - INFO -Get images from PDF to show in Streamlit
+2025-05-18 08:17:35,549 - INFO -Images already exist
+2025-05-18 08:17:35,622 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:17:35,744 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:17:35,865 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:17:35,997 - INFO -Loading images from PDF already existed successfully
+2025-05-18 08:17:35,999 - INFO -PDF and vector store loaded successfully
+2025-05-18 08:17:36,004 - INFO -Answering question in streamlit
+2025-05-18 08:17:36,006 - INFO -Creating RAG chain
+2025-05-18 08:17:36,006 - INFO -Prompt created successfully
+2025-05-18 08:17:36,007 - INFO -Using OpenRouter API for RAG Chain
+2025-05-18 08:17:36,784 - INFO -OpenRouter API model created successfully
+2025-05-18 08:17:37,409 - INFO -HTTP Request: POST https://openrouter.ai/api/v1/chat/completions "HTTP/1.1 200 OK"
