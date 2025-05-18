@@ -113,10 +113,9 @@ Streamed Answer in Streamlit UI
 
     Output is streamed back to the UI
 
-![workflow](https://github.com/user-attachments/assets/c2367994-d962-4dfd-b993-4ab905d39c4d)
+![workflow](https://github.com/user-attachments/assets/80a3a337-3f27-4373-b309-03f3404bf701)
 
-
----
+-
 
 ### Prompt Design
 
