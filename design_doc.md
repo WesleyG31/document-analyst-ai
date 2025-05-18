@@ -163,6 +163,8 @@ Every step was saved in logs
 ├── logs/                   # Logs - tries
 ```
 
+![logs](https://github.com/user-attachments/assets/c84fd70a-6609-41ab-a782-3352bc6965c7)
+
 
 ### 🔹 Initial Setup 
 
