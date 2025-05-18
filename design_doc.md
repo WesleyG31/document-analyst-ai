@@ -113,6 +113,9 @@ Streamed Answer in Streamlit UI
 
     Output is streamed back to the UI
 
+![workflow](https://github.com/user-attachments/assets/c2367994-d962-4dfd-b993-4ab905d39c4d)
+
+
 ---
 
 ### Prompt Design
@@ -191,6 +194,8 @@ Every step was saved in logs
 **Learning:**  
 - Realized importance of consistent persist_directory
 
+
+![first_try](https://github.com/user-attachments/assets/7395c575-0d40-46a8-827b-403820572391)
 
 ---
 
