@@ -67,6 +67,7 @@ This project is fully containerized with Docker and deployable on **Hugging Face
 ```
 ├── app.py                  # Main Streamlit app
 ├── rag/                    # RAG pipeline logic (RAG_MODEL)
+├── logs/                   # Logs - tries
 ├── src/                    # Logger + custom exceptions
 ├── tmp/vector_store/       # Persisted Chroma vector DBs 
 ├── Dockerfile              # Docker setup for HF Spaces
