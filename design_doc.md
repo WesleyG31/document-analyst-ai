@@ -44,8 +44,6 @@ The system is designed to support real-time document QA over user-provided PDFs,
 
 - Citation display with source page numbers
 
-- User login or per-session tracking
-
 ### Assumptions:
 
 - Expected usage is single-user, single-PDF per session
@@ -115,7 +113,6 @@ Streamed Answer in Streamlit UI
 
 ![workflow](https://github.com/user-attachments/assets/80a3a337-3f27-4373-b309-03f3404bf701)
 
--
 
 ### Prompt Design
 
@@ -132,6 +129,12 @@ Answer:
 - Designed for domain flexibility (e.g., "Finance Assistant", "HR Analyst")
 
 - Ensures grounded, context-based generation
+
+### 🧠 Prompt Generalization & Customization
+
+In this implementation, I opted for a generic prompt intentionally, to ensure that the system remains adaptable across a wide variety of PDF document types — from technical manuals to academic papers or corporate reports.
+
+However, this prompt can be easily customized through prompt engineering to optimize responses for specific domains (e.g., finance, healthcare, legal). By tailoring the prompt instructions or adding few-shot examples, we can significantly improve the relevance and tone of the generated answers for targeted use cases.
 
 ---
 
@@ -160,7 +163,7 @@ Throughout the project, I explored several approaches, learned from failures, an
 Every step was saved in logs 
 
 ```
-├── logs/                   # Logs - tries
+├── logs/                   # Logs - attemps
 ```
 
 ![logs](https://github.com/user-attachments/assets/c84fd70a-6609-41ab-a782-3352bc6965c7)
@@ -187,7 +190,11 @@ Every step was saved in logs
 - Needed a fast  and robust embedding 
 
 **Why I tried this:**  
-- Tried sentence-transformers/all-MiniLM-L6-v2 — decent but noisy
+- Tried sentence-transformers/all-MiniLM-L6-v2 — decent but noisy.
+
+- Also "BAAI/bge-large-en" also could be used a little bit big.
+
+- Thi intfloat/e5-mistral-7b-instruct really big.
 
 **Result:**  
 - Found BAAI/bge-small-en more robust for document QA
@@ -249,43 +256,39 @@ Docker container to upload in HuggingFace Spaces
 
 ✚ Citation tracing (highlight chunks that contributed to the answer)
 
-✚ Search index for all processed documents
-
-✚ Streaming LLM token visualization
-
 ---
 
 ## Summary
 
 I approached this challenge as a chance to show:
 
-    That I can think clearly and structure a system
+- That I can think clearly and structure a system
 
-    That I can balance creativity with pragmatism
+- That I can balance creativity with pragmatism
 
-    That I enjoy building and iterating under constraints
+- That I enjoy building and iterating under constraints
 
-    I’m proud of what I built — not because it’s perfect, but because it’s practical, modular, and real.
+- I’m proud of what I built — not because it’s perfect, but because it’s practical, modular, and real.
 
-    Thanks for this opportunity. I hope to continue building with you.
+- Thanks for this opportunity. I hope to continue building with you.
 
 This project demonstrates:
 
-    Solid understanding of RAG architecture
+- Solid understanding of RAG architecture
 
-    Modular thinking using LangChain components
+- Modular thinking using LangChain components
 
-    Real-world deployment via Docker & Hugging Face
+- Real-world deployment via Docker & Hugging Face
 
-    Clear UX priorities via Streamlit + PDF previews
+- Clear UX priorities via Streamlit + PDF previews
 
 It reflects my ability to:
 
-    Take full ownership from data to deployment
+- Take full ownership from data to deployment
 
-    Balance simplicity with power (Chroma + LLMs)
+- Balance simplicity with power (Chroma + LLMs)
 
-    Communicate design through code, docs, and visuals
+- Communicate design through code, docs, and visuals
 
 
 - Wesley

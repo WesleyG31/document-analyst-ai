@@ -10,9 +10,9 @@ This project is fully containerized with Docker and deployable on **Hugging Face
 
 ---
 
-## Find more information in desing doc
+## Find more information in design doc
 
-[Design Doc](https://github.com/WesleyG31/jewelry-tracking-thuli/blob/main/3d_synthesis/readme.md)
+[Design Doc](https://github.com/WesleyG31/document-analyst-ai/blob/main/design_doc.md)
 
 - Assumptions and scope of work.
 - Step-by-step implementation details.
